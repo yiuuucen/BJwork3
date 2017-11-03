@@ -1,0 +1,6 @@
+body {background:#fff; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.center {width:460px; margin:100px auto 0 auto;}
+.center h2 {color: #227706;text-align:center;}
+.not-found {font-size: 12px; color: #000; line-height: 18px; text-align: center; border: 1px solid #CCC;background-color: #FFFFEC; padding:8px 0;}
+.not-found a {color:#c00;}
+.copyright {font-size:12px; margin-top:15px; text-align:right; color:#ccc;}

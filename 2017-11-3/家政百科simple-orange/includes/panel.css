@@ -1,0 +1,14 @@
+/*
+ThemeName: LeonHereThemeAuthor: LeonHere*/
+div,h1,h2,h3,h4,h5 {margin:0; padding:0; }
+.panel_wrap {border:1px solid #ccc; background:#f6f6f6; border-radius:10px 10px 0 0; font-size:12px; position:relative; height:auto; overflow: hidden; margin:0 15px 0 5px;}
+.panel_wrap h2 {font-family:'Microsoft Yahei'; padding:15px;}.panel_wrap h3 {width:250px; height:28px; line-height:28px; background: #83a42c; color: #fff; padding-left:25px; border-bottom:1px solid #ddd;}.clearfix {clear:both;}.panel_wrap .submit {float:left; padding-left:25px;}.panel_wrap .lh_options {padding:15px; clear:both; overflow: hidden;}.panel_wrap .lh_input {clear:both; overflow:hidden; padding:15px; border-bottom:1px solid #ddd; border-top:1px solid #fff;}.panel_wrap .lh_input label {height:120px; width:250px; display:block; float:left; font-size:14px; }.panel_wrap .lh_input label small {font-size:12px; color:#888; text-shadow:1px 1px 1px #fff;}.panel_wrap .lh_input textarea {padding:10px; float:left; width:50%; height:120px; border:1px solid #DFDFDF;}.panel_wrap .lh_input textarea:focus{border:1px solid #DFDFDF;}.panel_wrap .lh_input input {border:1px solid #DFDFDF; height:32px; padding:0 10px; width:40%;}.panel_wrap .lh_input .wp-editor-wrap {width:50%; float:left;}.panel_wrap .lh_input .wp-editor-container {border:none;}.panel_wrap .copyright {clear:both; text-align:right; font-family:Tahoma,Arial; padding:0 10px 5px 0;}.panel_wrap .copyright b,.themes-page .copyright b {font-size:12px; font-weight:normal;}.themes-page {border:1px solid #ccc; padding:10px; background:#ececec; margin:0 15px 0 5px;}
+.themes-page  h2 {font-family:Tahoma,'Microsoft Yahei','Simsun',Arial,sans-serif; font-weight:normal; border-bottom:1px solid #DFDFDF;}.themes-page .page-info {border-top:1px solid #F9F9F9; padding:15px 0 0; overflow:hidden;}
+.themes-page .page-info .text {width:50%; }
+.themes-page .page-info .submits {border:1px solid #aaa; cursor:pointer; background:#fff; padding:0 10px; color:#555; font-weight:bold;}.themes-page .page-info input {height:32px; line-height:32px; float:left;}
+.themes-page ul.themes {clear:both; margin-top:10px; padding:0 10px;}
+.themes-page ul.themes li {line-height:1.7em; font-size:14px; display:block;}
+.themes-page ul.themes li a {text-decoration:none; border-bottom:1px dotted #21759B;}
+.themes-page ul.themes li a:hover {border-bottom:1px solid #D54E21;}
+.themes-page .copyright,.themes-page .copyright a,.panel_wrap .copyright,.panel_wrap .copyright a {font-size:11px; color:#9a9a9a; text-decoration:none;}
+.themes-page .copyright {text-align:center; font-family:Tahoma,Arial;}
