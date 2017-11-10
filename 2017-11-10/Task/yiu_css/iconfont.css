@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../yiu_iconfont/icomoon.eot?kgw4f3');
+  src:  url('../yiu_iconfont/icomoon.eot?kgw4f3#iefix') format('embedded-opentype'),
+    url('../yiu_iconfont/icomoon.ttf?kgw4f3') format('truetype'),
+    url('../yiu_iconfont/icomoon.woff?kgw4f3') format('woff'),
+    url('../yiu_iconfont/icomoon.svg?kgw4f3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icom-"], [class*=" icom-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icom-星:before {
+  content: "\e91f";
+  color: #ec771f;
+}
+.icom-保洁 .path1:before {
+  content: "\e904";
+  color: rgb(14, 181, 126);
+}
+.icom-保洁 .path2:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-保姆 .path1:before {
+  content: "\e906";
+  color: rgb(14, 181, 126);
+}
+.icom-保姆 .path2:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-保姆 .path3:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-保姆 .path4:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-护工 .path1:before {
+  content: "\e90a";
+  color: rgb(14, 181, 126);
+}
+.icom-护工 .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-护工 .path3:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-小时工 .path1:before {
+  content: "\e90d";
+  color: rgb(14, 181, 126);
+}
+.icom-小时工 .path2:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-小时工 .path3:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-小时工 .path4:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-育儿嫂 .path1:before {
+  content: "\e911";
+  color: rgb(14, 181, 126);
+}
+.icom-育儿嫂 .path2:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-育儿嫂 .path3:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-育儿嫂 .path4:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-育儿嫂 .path5:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-育儿嫂 .path6:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path1:before {
+  content: "\e917";
+  color: rgb(14, 181, 126);
+}
+.icom-月嫂 .path2:before {
+  content: "\e918";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path3:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path4:before {
+  content: "\e91a";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path5:before {
+  content: "\e91b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path6:before {
+  content: "\e91c";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path7:before {
+  content: "\e91d";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-月嫂 .path8:before {
+  content: "\e91e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-家政 .path1:before {
+  content: "\e900";
+  color: rgb(14, 181, 126);
+}
+.icom-家政 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-家政 .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icom-家政 .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
