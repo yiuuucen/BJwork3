@@ -1,0 +1,1 @@
+﻿document.write('<div class="footer"><div class="wrap clearFix"><p class="gsdz">北京总部：北京维尔互动科技有限公司<br />总部地址：北京市朝阳区五里桥二街1号院6号楼8层0821<br />总部电话：13552277316<br/> 京ICP备  16059400号-1</p></div></div>');

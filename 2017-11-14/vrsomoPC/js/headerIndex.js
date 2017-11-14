@@ -1,0 +1,1 @@
+﻿document.write('<div id="header" class="wrap"><img src="images/newLogo.jpg" class="fl" /></div><div id="nav"><ul class="clearFix wrap"><li><a href="index.html">首页</a></li><li><a href="list1.html">保洁</a></li><li><a href="list4.html">小时工</a></li><li><a href="list6.html">长期小时工</a></li><li><a href="gywm.html">关于我们</a></li></ul></div>');
