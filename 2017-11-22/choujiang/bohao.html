@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>仿安卓手机拨号界面按键特效</title>
+    <link rel="stylesheet" href="css/bohao.css">
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /* Current Tab */
+            $('.phone-tabs li a').click(function () {
+                $('.phone-tabs li').removeClass('current');
+                $(this).parent().addClass('current');
+            });
+            /* Simple Tab */
+            var tabContents = $('.phone-tab-contents');
+            $('.phone-tabs .getphone').click(function () {
+                tabContents.removeClass('getpeoples');
+                tabContents.removeClass('getclock');
+            });
+            $('.phone-tabs .getclock').click(function () {
+                tabContents.removeClass('getpeoples');
+                tabContents.addClass('getclock');
+            });
+            $('.phone-tabs .getpeoples').click(function () {
+                tabContents.removeClass('getclock');
+                tabContents.addClass('getpeoples');
+            });
+            /* Delete */
+            $('.delete-btn').click(function () {
+                var numbers = $('.number-area .numbers').text();
+                var numbers2 = $('.number-area .numbers').text().length;
+                $('.number-area .numbers').text(numbers.substr(0, numbers2 - 1));
+            });
+            /* Pusher */
+            var pusher = {
+                number: function (num) {
+                    $('.numbers-container .pushed' + num + '').click(function () {
+                        $('.number-area .numbers').append('' + num + '');
+                    });
+                }
+            }
+            pusher.number(1);
+            pusher.number(2);
+            pusher.number(3);
+            pusher.number(4);
+            pusher.number(5);
+            pusher.number(6);
+            pusher.number(7);
+            pusher.number(8);
+            pusher.number(9);
+            pusher.number(0);
+            $('.numbers-container .pushedasterisk').click(function () {
+                $('.number-area .numbers').append('*');
+            });
+            $('.numbers-container .pushednumber').click(function () {
+                $('.number-area .numbers').append('#');
+            });
+        });
+    </script>
+
+</head>
+<body>
+<div class="nexus">
+    <div class="speaker"></div>
+    <div class="screen">
+        <div class="phone-infos">
+            <span>03.15</span>
+            <span class="battery"></span>
+<span class="gsm">
+<b class="signal1"></b>
+<b class="signal2"></b>
+<b class="signal3"></b>
+<b class="signal4"></b>
+</span>
+        </div>
+        <ul class="phone-tabs">
+            <li class="current"><a class="getphone"><i class="icon phone"></i></a></li>
+            <li><a class="getclock"><i class="icon clock"></i></a></li>
+            <li><a class="getpeoples"><i class="icon peoples"></i></a></li>
+        </ul>
+        <div class="phone-tab-contents">
+            <div class="tab phone current">
+                <div class="number-area">
+                    <span class="numbers"></span>
+                    <a class="delete-btn"><i class="icon close">x</i></a>
+                </div>
+                <div class="numbers-container">
+                    <span class="pushed1">1<em class="brd">o o</em></span>
+                    <span class="pushed2">2<em>ABC</em></span>
+                    <span class="pushed3">3<em>DEF</em></span>
+                    <span class="pushed4">4<em>GHI</em></span>
+                    <span class="pushed5">5<em>JKL</em></span>
+                    <span class="pushed6">6<em>MNO</em></span>
+                    <span class="pushed7">7<em>PQRS</em></span>
+                    <span class="pushed8">8<em>TUV</em></span>
+                    <span class="pushed9">9<em>WXYZ</em></span>
+                    <span class="pushedasterisk fff">*</span>
+                    <span class="pushed0">0<em>+</em></span>
+                    <span class="pushednumber fff">#</span>
+                </div>
+                <div class="call-btn">
+                    <i class="icon phone"></i>
+                </div>
+            </div>
+            <div class="tab clock">
+                <p>Not Ready</p>
+                <p>Visit Nexus 4 Official Page</p>
+                <p><a href="/">/</a></p>
+                <p>Visit My Site</p>
+                <p><a href="/">/</a></p>
+            </div>
+            <div class="tab peoples">
+                <p>Not Ready</p>
+                <p>Visit Nexus 4 Official Page</p>
+                <p><a href="/">/</a></p>
+                <p>Visit My Site</p>
+                <p><a href="/">/</a></p>
+            </div>
+        </div>
+        <ul class="main-btns">
+            <li><a><i class="icon back"><</i></a></li>
+            <li><a><i class="icon home"></i></a></li>
+            <li><a><i class="icon windows"></i></a></li>
+        </ul>
+    </div>
+</div>
+<div style="text-align:center;clear:both;">
+</div>
+</body>
+</html>

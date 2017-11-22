@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no">
+    <title>签约送好礼</title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+</head>
+<body class="bgGreen">
+<div class="container">
+    <section class="cl">
+        <div class="top">
+            <img src="img/banner.png">
+            <p style="color: #fff;font-size: 0.1rem;text-align: center;">客户签约或充值可参与抽奖活动，获得一次抽奖机会</p>
+        </div>
+    </section>
+    <section class="yzshouji">
+        <input type="number" placeholder="请输入您的手机号">
+    </section>
+    <!--<h4 class="mingdantitle">往期中奖名单</h4>
+    <section class="winningTable cl">
+        <img src="img/rewardBox.png" alt="" class="whole"/>
+        <div class="winningBox">
+            <strong><span>抽奖手机号码</span><span>号码</span><span>奖品</span></strong>
+            <div class="scroll">
+                <ul>
+                    &lt;!&ndash;<li><span>186****0067</span><span>01期</span><span>9591</span><span>iphoneX</span></li>&ndash;&gt;
+                    <li><span>135****0100</span><span>231</span><span>一等奖</span></li>
+                    <li><span>133****9810</span><span>416</span><span>三等奖</span></li>
+                    <li><span>133****6538</span><span>253</span><span>三等奖</span></li>
+                    <li><span>182****4639</span><span>631</span><span>特等奖</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>-->
+    <div class="formBox">
+        <div class="blank"></div>
+        <div class="yzmBox">
+            <span>请选择3个抽奖号码</span>
+        </div>
+        <div id="choosehaoma">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+            </ul>
+        </div>
+        <div id="wrap">
+            <div>
+                <input class="CJhaoma" value="2" id="oneh" type="number" required/>
+                <input class="CJhaoma" value="2" id="twoh" type="number" required/>
+                <input class="CJhaoma" value="2" id="three" type="number" required/>
+                <span style=" position: relative;
+    top: -0.25rem;
+    left: 0.1rem;color:#fff;margin-top: -0.2rem;">重置</span>
+            </div>
+
+        </div>
+        <div id="drawBtn"><span>点击抽奖</span></div>
+        <div class="checkjilu"><span>查看抽奖记录</span></div>
+    </div>
+    <div class="awardList">
+        <!--<div class="tipsMark">-->
+        <!--&lt;!&ndash;<p class="tipsTitle">第一期</p>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p class="drawNum">您的抽奖号码为：<span>8888</span></p>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p class="shareNum">分享获得抽奖号码为：<span>000</span></p>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p>*进入公众号查看每期中奖结果</p>&ndash;&gt;-->
+        <!--</div>-->
+    </div>
+    <div class="activityRule">
+        <img src="img/activityDetails.png" alt="" class="whole"/>
+        <div class="rules">
+            <!--<p><span>活动时间：</span>2017.11.1-2017.11.30</p>-->
+            <p><span>活动规则：</span></p>
+            <p>客户签约或充值可参与抽奖活动，签约获得一次抽奖机会，当日充值获得一次抽奖机会，奖品仅限当日有效。</p>
+            <p><span>活动说明：</span></p>
+            <p>
+                关注家事无忧公众号“无忧保姆”，点击“活动抽奖”菜单后进入“签约抽奖”页面参与活动，客户随机编写3位数字，数字仅限1-6之间可重复，中奖信息每10分钟公布一次，中奖号码以当期“北京福彩网”公布“快3”中奖号码为准，网址：<a
+                    style="color: #FFFF00;" href="http://www.bwlc.net/bulletin/prevqck3.html">http://www.bwlc.net/bulletin/prevqck3.html</a>，活动截止日期2017年11月30日。
+            </p>
+            <p><span>奖品与中奖规则：</span></p>
+            <p class="example">三等奖：</p>
+            <p>客户填写的3位数字有1位与中奖号码相同，奖品1000元充值卡，充值满20000元可用</p>
+            <p class="example">二等奖：</p>
+            <p>客户填写的3位数字中有2位与中奖号码相，奖品：2000元充值卡，充值满30000元可用</p>
+            <p class="example">一等奖：</p>
+            <p>客户填写的3位数字中有3位与中奖号码相同，奖品：4000元充值卡，充值满50000元可用</p>
+            <p class="example">特等奖：</p>
+            <p>客户填写的3位数字与中奖号码<span style="color: red">顺序和号码</span>完全相同，奖品：2000充值卡，无限制条件。</p>
+        </div>
+    </div>
+</div>
+<div class="errorTip"></div>
+<!-- 透明遮罩 -->
+<div id="mask"></div>
+<!-- 弹框 -->
+<div id="show">
+    <img src="./img/jiantou.gif" alt="" class="whole">
+</div>
+</body>
+</html>
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<script>
+    var chm = document.getElementById('choosehaoma');
+    var aLi = chm.getElementsByTagName('li');
+
+    for (var i = 0; i < aLi.length; i++) {
+        aLi[i].onclick = function () {
+            console.log(this.innerHTML);
+        }
+    }
+
+</script>
+
