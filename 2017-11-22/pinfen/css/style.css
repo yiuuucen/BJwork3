@@ -1,0 +1,114 @@
+/*reset*/
+body,ul,p{
+    margin: 0;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+.cl{
+    zoom: 1;
+}
+.cl:after{
+    display: block;
+    clear: both;
+    content: '';
+    visibility:hidden;
+    height: 0
+}
+
+/*start*/
+.container{
+    max-width: 750px;
+    margin: 0 auto;
+}
+.header{
+    margin: 0.3rem 0 0.2rem;
+    display: flex;
+    justify-content:center;
+    align-items: baseline;
+}
+.header label{
+    font-size: 0.16rem;
+}
+.header input{
+    width: 15%;
+    float: left;
+    font-size: 0.16rem;
+    margin: 0 0.1rem 0 0;
+    padding: 0 0 0 0.2rem;
+    border: 0;
+    outline:none;
+}
+.fenshu{
+    display: flex;
+    justify-content:center;
+}
+.fenshu div{
+    width: 20%;
+    font-size: 0.16rem;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-left: 0;
+    background: rgb(247,150,70);
+    padding: 0.3rem 0.2rem;
+}
+.fenshu div:first-child{
+    border-left: 1px solid #000;
+    position: relative;
+}
+.fenshu div:first-child p{
+    opacity: 0;
+}
+.fenshu div:first-child span:nth-child(2){
+    position: absolute;
+    top:0.1rem;
+    right: 0.1rem;
+}
+.fenshu div:first-child span:last-child{
+    position: absolute;
+    bottom: 0.1rem;
+    left: 0.1rem;
+}
+.content>ul{
+    font-size: 0.16rem;
+}
+.content ul li ul{
+    display: flex;
+    justify-content:center;
+}
+.content ul li ul li{
+    width: 20%;
+    box-sizing: border-box;
+    padding: 0.3rem 0.2rem;
+    border: 1px solid #000;
+    border-left: 0;
+    border-top: 0;
+    text-align: center;
+}
+.content>ul>li:nth-child(2n+1){
+    background:rgb(215,215,215) ;
+}
+.content ul li ul li:first-child{
+    border-left: 1px solid #000;
+    background: rgb(247,150,70);
+}
+
+.add{
+
+}
+.add ul{
+
+}
+.add ul li:last-child{
+    width:  80%;
+}
+.advise ul li:first-child{
+    text-align: center;
+}
+.advise ul li:last-child{
+    width: 80%;
+    padding: 1rem 0;
+}
