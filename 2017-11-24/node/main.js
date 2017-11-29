@@ -1,7 +1,7 @@
 
 var fs = require("fs");
 var path = require("path");
-
+//test
 // 递归创建目录 异步方法
 function mkdirs(dirname, callback) {
     fs.exists(dirname, function (exists) {
