@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <script>
+        var myDate = new Date();
+        //2017-12-1 15:30  1512113465
+        //距离过去了多少s
+        var goSec=parseInt(myDate.getTime()/1000)-1512113465;
+        //距离过去了多少个30分钟
+        var goMin=parseInt(goSec/1800);
+        console.log(goSec);
+        console.log(goMin);
+        console.log(myDate.getSeconds());
+        var data={
+            'num':100+goMin*200,
+            'test':1
+        }
+        console.log(data.num)
+    </script>
+</body>
+</html>
